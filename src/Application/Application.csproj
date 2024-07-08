@@ -7,7 +7,22 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <PackageReference Include="AutoMapper" Version="13.0.1" />
+    <PackageReference Include="MediatR" Version="12.3.0" />
+  </ItemGroup>
+
+  <ItemGroup>
     <ProjectReference Include="..\Infrastructure\Infrastructure.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="Features\Students\Commands\Handlers\" />
+    <Folder Include="Features\Students\Commands\Models\" />
+    <Folder Include="Features\Students\Commands\" />
+    <Folder Include="Features\Students\Commands\Validators\" />
+    <Folder Include="Features\Students\Responses\" />
+    <Folder Include="Features\Students\Queries\Models\" />
+    <Folder Include="Bases\" />
   </ItemGroup>
 
 </Project>
